@@ -12,7 +12,6 @@ Write a C program to read 3 characters one by one and print the characters in a 
 ## PROGRAM:
 ```
 #include <stdio.h>
-
 int main() {
     char ch1, ch2, ch3;
     scanf(" %c", &ch1);
@@ -25,7 +24,8 @@ int main() {
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/a96e2a8b-a3ec-4bdb-9e72-dd5f2536a3e4
+![Screenshot 2025-05-15 084449](https://github.com/user-attachments/assets/f6856dc1-167e-4772-aca7-823e8c585cd5)
+
 
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
