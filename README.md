@@ -37,14 +37,20 @@ Thus the program to read 3 characters one by one and print the characters in a r
 Write a C program to read A values and check whether A is positive number or not.
 
 # ALGORITHM: 
-```
+
+
 1.Declare a variable to store the input value A.
+
 2.Use the scanf function to read the value of A from the user.
+
 3.Check if the value of A is greater than zero.
+
 4.If A is greater than zero, print a message indicating that it's a positive number. 
+
 5.Otherwise, print a message indicating that it's not a positive number.
+
 6.End the program.
-```
+
 # PROGRAM:
 ```
 #include <stdio.h>
@@ -91,26 +97,20 @@ Write a program to find minimum between two fraction numbers using conditional o
 
 int main() {
     int num1, den1, num2, den2;
-    float frac1, frac2, min;
-
+    float decimal1, decimal2, result;
     scanf("%d %d", &num1, &den1);
     scanf("%d %d", &num2, &den2);
-
-    frac1 = (float)num1 / den1;
-    frac2 = (float)num2 / den2;
-
-    if (frac1 < frac2)
-        min = frac1;
-    else
-        min = frac2;
-
-    printf("Minimum value: %.2f\n", min);
-
+    decimal1 = (float)num1 / den1;
+    decimal2 = (float)num2 / den2;
+    result = (decimal1 < decimal2) ? decimal1 : decimal2;
+    printf("Minimum fraction value (in decimal) is: %.4f\n", result);
     return 0;
 }
+
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/224cf43d-d265-4a3e-891a-54e7453231fb)
+![image](https://github.com/user-attachments/assets/e2e53a94-6830-48bc-9e2b-08c4f8bc74e6)
+
 
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
