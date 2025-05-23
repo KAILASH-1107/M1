@@ -24,7 +24,8 @@ int main() {
 
 ## OUTPUT:
 
-![Screenshot 2025-05-15 084449](https://github.com/user-attachments/assets/f6856dc1-167e-4772-aca7-823e8c585cd5)
+![image](https://github.com/user-attachments/assets/bb9fc672-19e1-4f6a-a693-8de88a5462ef)
+
 
 
 ## RESULT:
@@ -35,14 +36,15 @@ Thus the program to read 3 characters one by one and print the characters in a r
 ## AIM:
 Write a C program to read A values and check whether A is positive number or not.
 
-# ALGORITHM:
+# ALGORITHM: 
+```
 1.Declare a variable to store the input value A.
 2.Use the scanf function to read the value of A from the user.
 3.Check if the value of A is greater than zero.
 4.If A is greater than zero, print a message indicating that it's a positive number. 
 5.Otherwise, print a message indicating that it's not a positive number.
 6.End the program.
-
+```
 # PROGRAM:
 ```
 #include <stdio.h>
